@@ -9,18 +9,18 @@ verb_a: str = input("Enter a verb: ")
 verb_b: str = input("Enter a verb (past tense): ")
 number_a: str = input("Enter a number ")
 number_b: str = input("Enter another number ")
-age: int
+times: int
 
 try:
-    age = int(number_a) + int(number_b)
+    times = int(number_a) + int(number_b)
     story: str = f"""
     ---------------------------------------------------------------------------------------------------
-    This is a story about {name}, a strong (and beautiful) {noun_a} who loved to {verb_a}.
+    There once was a {noun_a} named {name}, who loved to {verb_a} as a living.
 
     {name} once {verb_b} and won a {noun_b} as a prize.
     Isn't that incredible?
 
-    Today, {name} is {age} years old and has retired from adventures.
+    To add on to that achievement, {name} {verb_b} {times} times has retired from adventures.
 
     But the story will live on forever...
 
